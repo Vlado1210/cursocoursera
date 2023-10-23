@@ -1,0 +1,60 @@
+.reservation {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: 0px -200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yellow-lemon {
+    color: #F4CE14;
+}
+
+.headers-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20vh;
+}
+
+.headers-Container h1 {
+    font-size: 90px;
+    height: 60px;
+    font-weight: 50;
+    margin-bottom: -10px;
+    color: rgb(255, 255, 255);
+    font-weight: 50;
+    color: rgb(255, 255, 255);
+}
+
+.headers-Container h2 {
+    font-size: 50px;
+    font-weight: 50;
+    height: 60px;
+    margin-bottom: 100px;
+    color: rgb(255, 255, 255);
+}
+
+.headers-Container button {
+    color: black;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #465952;
+    height: 64px;
+    width: 220px;
+    color: white;
+    text-decoration: none;
+}
+
+.headers-Container button:hover {
+    background-color: #F4CE14;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
